@@ -18,7 +18,9 @@ configurations {
 		extendsFrom annotationProcessor
 	}
 }
-
+bootJar {
+	archiveFileName = 'user-Service.jar'
+}
 repositories {
 	mavenCentral()
 }
